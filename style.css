@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d3f2ff;
+}
+.container {
+    margin: 0px 394px;
+    display: revert;
+    height: 480px;
+    width: 500px;
+    text-align: justify;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.common {
+    margin: 19px 99px;
+}
+button.submit {
+    height: 42px;
+    width: 159px;
+    font-size: 17px;
+    margin: 5px 160px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: steelblue;
+    color: powderblue;
+}
+input {
+    height: 33px;
+    border-style: none;
+    border-bottom: 1px solid #8383a7;
+    background-color: #d3f2ff;
+}
+h2 {
+    text-align: center;
+    margin: 17px auto;
+    color: teal;
+    font-size: 33px;
+}
+a.list{
+    background-color: skyblue;
+    display: inline-table;
+    text-decoration: none;
+    height: 27px;
+    width: 224px;
+    margin: 1px 59px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 3px;
+}
+button.submit:hover{
+    color: blueviolet;
+    background-color: floralwhite;
+    transition: ease-in-out 1s;
+}
+/*<********************************* below the code to list page ********************* >*/
+table, th, td {
+    border: 4px solid grey;
+    height: 43px;
+    width: 9%;
+    display: table-cell;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #effaff;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+th{height: 60px;}
+tr{height: 40px;}
+th:hover{background-color: gainsboro;}
+
+button.edit {
+    height: 29px;
+    width: 73px;
+    text-align: center;
+    border-style: none;
+    border-radius: 2px;
+    background-color: #caffca;
+}
+
+button.del {
+    height: 29px;
+    width: 73px;
+    text-align: center;
+    border-style: none;
+    border-radius: 2px;
+    background-color: #ffb6b6;
+}
+tr:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
+button.update {
+    height: 42px;
+    width: 159px;
+    font-size: 17px;
+    margin: 13px 543px;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+    background-color: steelblue;
+    color: powderblue;
+}
+select {
+    text-align: center;
+    font-size: 16px;
+    border-style: none;
+    color: steelblue;
+    height: 35px;
+    width: 113px;
+    background-color: seashell;
+    border-radius: 4px;
+}
+a.createProducts{
+    background-color: white;
+    display: inline-table;
+    text-decoration: none;
+    height: 27px;
+    width: 272px;
+    margin: 16px 59px;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    border-radius: 3px;
+}
